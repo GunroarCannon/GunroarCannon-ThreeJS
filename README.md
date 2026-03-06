@@ -98,15 +98,22 @@ const browser = createEnhancedBrowserPanel('https://github.com');
 | `animateCameraToMeshObject(mesh, duration)` | Smoothly moves the camera so you don't give your users motion sickness. |
 | `physicsPaused` | A boolean for when you need the universe to stop while you think. |
 
+
+---
+
+## Simple Example
+
+GunroarCannon was used in this simple 3D desk that views a portfolio website.
+https://github.com/GunroarCannon/3D-desk-portfoliohttps://github.com/GunroarCannon/3D-desk-portfolio
+
 ---
 
 ## Known Issues
 
 * The physics engine follows the laws of gravity. If your objects fly away, you probably set a negative mass or you've discovered a bug in `cannon-es` that I am definitely not going to fix.
-* The "SimpleFPSControls" are indeed simple. Don't try to build the next *Call of Duty* with them.
+* Super flat objects can't handle physics well.
+* The "SimpleFPSControls" are indeed simple. Don't try to build the next *Call of Booty* with them.
 
 ## License
 
 MIT. Use it for whatever you want. If you build something that makes a billion dollars, a "thank you" would be nice, but I'll settle for you not filing a GitHub issue when you forget to add a light to your scene and the screen is black.
-
-**Next Step:** Would you like me to generate a `package.json` and a basic `index.html` to get this project running in a local environment?
